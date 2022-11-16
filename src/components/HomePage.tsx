@@ -18,7 +18,7 @@ const HomePage: React.FC = () => {
     if (isSuccess && data && data !== '') {
       const thanksgivingDate = new Date(data)
       thanksgivingDate.setDate(thanksgivingDate.getDate() + 1)
-      if (thanksgivingDate < today && currentYear === thanksgivingDate.getFullYear()) {
+      if (thanksgivingDate.getTime() < today.getTime() && currentYear === thanksgivingDate.getFullYear()) {
         setRequestedYear(currentYear + 1)
       }
     }
