@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/IsItLotR/static/css/main.073c9b0a.css",
+    "main.js": "/IsItLotR/static/js/main.de039c8b.js",
+    "index.html": "/IsItLotR/index.html",
+    "main.073c9b0a.css.map": "/IsItLotR/static/css/main.073c9b0a.css.map",
+    "main.de039c8b.js.map": "/IsItLotR/static/js/main.de039c8b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.de039c8b.js"
+  ]
+}
